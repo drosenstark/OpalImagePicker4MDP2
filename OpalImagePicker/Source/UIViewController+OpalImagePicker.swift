@@ -66,7 +66,7 @@ class OpalImagePickerWithExternalItemsManager: OpalImagePickerManager {
     var selectURLs: (([URL]) -> Void)?
     var externalURLForIndex: ((Int) -> URL?)?
     var numberOfExternalItems = 0
-    var externalItemsTitle = NSLocalizedString("External", comment: "External (Segmented Control Title)")
+    var externalItemsTitle = "External"
     
     static let sharedWithExternalItems = OpalImagePickerWithExternalItemsManager()
     
